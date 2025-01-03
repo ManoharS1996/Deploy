@@ -2,7 +2,7 @@
 FROM node:18-alpine
 
 # Set working directory in the container
-WORKDIR /src/server
+WORKDIR /app
 
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # Command to run the React app
-CMD ["npm", "start"]  
+CMD ["nodemon", "src/server.js"]  
