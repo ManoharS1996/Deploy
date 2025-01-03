@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 import SearchBar from "./search";
-import AddButton from "./AddButton";
+import AddButton from "./addButton";
 
 import { CgMoreO } from '../icons'
 import { Tooltip } from 'react-tooltip';
