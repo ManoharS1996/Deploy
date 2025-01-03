@@ -69,7 +69,7 @@ const mongourl = "mongodb+srv://admin:wondigi@wondigi.jq1js.mongodb.net/wondigi?
 mongoose.connect(mongourl)
 
     .then(() => {
-        app.listen(5000, () => {
+        app.listen(process.env.PORT, () => {
             console.log('server is running at 5000')
             console.log('connected to mongodb')
         })
