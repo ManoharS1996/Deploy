@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # Command to run the React app
-CMD ["nodemon", "src/server.js"]  
+CMD ["node", "src/server.js"]  
