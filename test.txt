@@ -1,1 +1,1 @@
-Jenkins working with git
+Jenkins working with github
